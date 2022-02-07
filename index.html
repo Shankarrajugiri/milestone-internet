@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <img src="images\logo.png" class="logo">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse bg-light p-3" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">EXPERIENCE 1440 <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">OUR PURPOSE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ONLINE LEARNING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT 1440</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">STORIES</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  MORE
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Image Gallery</a>
+                  <a class="dropdown-item" href="#">Careers</a>
+                  <a class="dropdown-item" href="#">Contact Us</a>
+                </div>
+              </li>
+            </ul>
+            <div class="book-nowbutton">
+              <p class="booknowtext"> Book Now </p>
+            </div>
+            <div class="search">
+              <i class="fas fa-search"></i>
+            </div>
+          </div>
+        </nav>
+        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="10000">
+              <img src="images\slide1.png" class="d-block w-100 video" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="2000">
+                <iframe class="video" width="100%" src="https://www.youtube.com/embed/GDa8kZLNhJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="carousel-item">
+                <iframe class="video" width="100%" src="https://www.youtube.com/embed/oy8dSsK57Ps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <div class="container">
+          <div class="d-flex flex-column justify-content-center">
+            <h1 class="heading col-12">
+                Skills are important than Scores.
+            </h1>
+            <hr class="line"/>
+            <div class="col-12">
+                <p class="content" id="content">
+                    Some collapsible content. Click the button to
+                    toggle between showing and hiding the collapsible
+                    content. Lorem ipsum dolor sit amet, consectetur 
+                    adipisicing elit, sed do eiusmod tempor incididunt 
+                    ut labore et dolore magna aliqua. Ut enim ad minim 
+                    veniam, quis nostrud exercitation ullamco laboris 
+                    nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+            <div class="d-flex flex-row justify-content-center mb-3">
+                <button class="plus-button" id="plusButton">
+                    <svg id="plusIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle plus-color" viewBox="0 0 16 16">
+                      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                      <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                    </svg>
+                    <svg id="minusIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle plus-color d-none" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                        <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+                      </svg>
+                </button>
+            </div>
+            <div class="images-div">
+                <div>
+                    <img src="images\div1.png" class="image m-3">
+                </div>
+                <div>
+                    <img src="images\div2.png" class="image m-3">
+                </div>
+            </div>
+        </div>
+        </div>
+        <footer class="footer-section">
+          <button class="make-donation">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-heart heart-color" viewBox="0 0 16 16">
+              <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+            </svg>
+            <a class="make-donation-text"> Make A Donation </a>
+          </button>
+          <div class="footer-links">
+            <a class="footer-links-items"> FAQs </a>
+            <a class="footer-links-items"> Blog </a>
+            <a class="footer-links-items"> Image gallery </a>
+            <a class="footer-links-items"> Public Health & Safety </a>
+            <a class="footer-links-items"> Contact Us </a>
+            <a class="footer-links-items"> 1440.tv </a>
+            <a class="footer-links-items"> 1440 Foundations </a>
+            <a class="footer-links-items"> Careers </a>
+          </div>
+        </footer>
+        <script src="app.js"></script>
+    </body>
+</html>
+

@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+body {
+    margin: 0;
+}
+.logo {
+    height: 50px;
+    width: 70px;
+}
+.book-nowbutton {
+    background-color: red;
+    color: white;
+    height: 8vh;
+    width: 100px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Roboto";
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.booknowtext {
+    padding-top: 10px;
+}
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+}
+.content-container {
+    display: flex;
+    flex-direction: column;
+
+}
+.heading {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 15px;
+}
+.line {
+    width: 20%;
+    border-top: 2px solid palevioletred;
+}
+.video {
+    height: 400px;
+}
+.content {
+    transition: 2s;
+    height: 40px;
+    overflow: hidden;
+}
+.content-expand {
+    transition: 2s;
+    height: 130px;
+}
+.plus-button {
+    border: none;
+    background-color: white;
+}
+.plus-color {
+    color: palevioletred;
+    cursor: pointer;
+}
+.make-donation {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    border: none;
+    color: white;
+}
+.make-donation-text {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+.image{
+    width: 80%;
+}
+.footer-section {
+    height: 8vh;
+}
+.footer-links {
+    width: 100%;
+    background-color: #182d47;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer-links-items {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    flex-shrink: 0;
+}
+@media (min-width: 769px) {
+    .images-div {
+        display: flex;
+        justify-content: space-around;
+    }
+    .image {
+        width: 80%;
+    }
+    .make-donation {
+        width: 30%;
+    }
+    .footer-section {
+        display: flex;
+    }
+    .footer-links {
+        display: flex;
+        width: 70%;
+        align-items: center;
+    }
+}
